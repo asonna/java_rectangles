@@ -1,7 +1,10 @@
+import java.util.List;
+import java.util.ArrayList;
+
 public class Rectangle {
   private int mLength;
   private int mWidth;
-  private static ArrayList<Task> instances = new ArrayList<Task>();
+  private static List<Rectangle> instances = new ArrayList<Rectangle>();
 
   public Rectangle(int length, int width) {
     mLength = length;
@@ -25,7 +28,7 @@ public class Rectangle {
     return mLength * mWidth;
   }
 
-  public static ArrayList<Rectangle> all() {
+  public static List<Rectangle> all() {
     return instances;
   }
 
