@@ -5,4 +5,8 @@ public class Cube {
     mFace = rectangle;
   }
 
+  public Rectangle getFace() {
+    return mFace;
+  }
+
 }
