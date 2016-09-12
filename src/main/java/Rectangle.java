@@ -1,6 +1,7 @@
 public class Rectangle {
   private int mLength;
   private int mWidth;
+  private static ArrayList<Task> instances = new ArrayList<Task>();
 
   public Rectangle(int length, int width) {
     mLength = length;
