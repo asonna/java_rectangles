@@ -25,4 +25,8 @@ public class Rectangle {
     return mLength * mWidth;
   }
 
+  public static ArrayList<Rectangle> all() {
+    return instances;
+  }
+
 }
