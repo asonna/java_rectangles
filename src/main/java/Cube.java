@@ -1,6 +1,8 @@
 public class Cube {
+  private Rectangle mFace;
 
-  public Cube() {
+  public Cube(Rectangle rectangle) {
+    mFace = rectangle;
   }
 
 }

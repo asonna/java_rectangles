@@ -6,7 +6,7 @@ public class CubeTest {
   @Test
   public void newCube_instantiatesCorrectly() {
     Rectangle testRectangle = new Rectangle(30, 30);
-    Rectangle testCube = new Cube(testRectangle);
+    Cube testCube = new Cube(testRectangle);
     assertEquals(true, testCube instanceof Cube);
   }
 
