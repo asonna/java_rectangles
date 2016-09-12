@@ -39,4 +39,12 @@ public class RectangleTest {
     assertEquals(450, testRectangle.area());
   }
 
+  @Test
+  public void all_returnsAllInstancesOfRectangle_true() {
+    Rectangle firstRectangle = new Rectangle(10, 20);
+    Rectangle secondRectangle = new Rectangle(5, 5);
+    assertTrue(Rectangle.all().contains(firstRectangle));
+    assertTrue(Rectangle.all().contains(secondRectangle));
+  }
+
 }
